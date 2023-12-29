@@ -9,6 +9,7 @@ services:
       - media_volume:/usr/src/app/mediafiles
     ports:
       - 8001:8001
+    user: "www-data:www-data" 
 volumes:
   static_volume:
   media_volume:
