@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2pj8wp=8hqqvuqzw3f@sh(6^nfs(5608=v!^q3wevr2_))!3=0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['quicklander.cryptazy.com', 'www.quicklander.cryptazy.com', '92.91.253.5', 'manage-docks.cryptazy.com']
+ALLOWED_HOSTS = ['localhost', 'quicklander.cryptazy.com', 'www.quicklander.cryptazy.com', '92.91.253.5', 'manage-docks.cryptazy.com']
 
 
 # Application definition
