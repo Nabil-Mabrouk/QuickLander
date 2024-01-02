@@ -1,0 +1,60 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+/* Customizable variables */
+:root {
+    /* Define fonts */
+    --main-font: 'Poppins', sans-serif;
+    --secondary-font: var(--main-font); /* can be changed if a second font is needed */
+
+    /* Define color palette - organize colors from the lightest to the darkest */
+    --white-color: rgb(255, 255, 255);
+    --first-color: #6C55A3;
+    --second-color: #53407f;
+    --third-color: #6C55A3;
+    --fourth-color: #53407f;
+    --fifth-color: #6C55A3;
+    --sixth-color: #53407f;
+    --black-color: rgb(0, 0, 0, 0.3);
+
+    /* Nav bar */
+    --navbar-alignment: center; /* left, center, or right */
+    --navbar-font-family: var(--main-font);
+    --navbar-font-size: 15px;
+    --navbar-text-color: var(--first-color);
+    --navbar-text-active-color: var(--second-color);
+
+    /* Section header */
+    --header-text-alignment: left; /* left, center, or right */
+    --header-image-alignment: right; /* left, center, or right */
+    --header-title-font-family: var(--main-font);
+    --header-title-font-size: 2.8rem;
+    --header-title-color: var(--first-color);
+
+    --header-subtitle-font-family: var(--main-font);
+    --header-subtitle-font-size: 1.5rem;
+    --header-subtitle-color: var(--second-color);
+
+    --header-button-background: var(--third-color);
+    --header-button-color: var(--fourth-color);
+
+    --header-background-size: cover; /* 'cover' or 'contain' */
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--white-color);
+    background:  url('header-background.jpg') rgb(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(255,255, 255,0.15);
+        backdrop-filter: blur(10px);
+    }
+}
